@@ -1,101 +1,123 @@
-# customer_shopping_behaviour_analysis
-End-to-End Retail Analytics: Python EDA -SQL Analysis - Power BI Dashboard
-# Customer Shopping Behavior Analysis
-**End-to-End Data Analytics Portfolio Project**  
-*Uncovered $548K Revenue Opportunities from 3,900 Transactions*
+# 🛒 Customer Shopping Behaviour Analysis  
+**End-to-End Retail Analytics Project | Python · SQL · Power BI**
 
-[![Python](https://img.shields.io/badge/Python-EDA%20Cleaning-blue)](https://python.org)
-[![SQL](https://img.shields.io/badge/SQL-MySQL-orange)](https://mysql.com)
-[![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)](https://powerbi.microsoft.com)
-
-## 📋 Project Overview
-Complete retail analytics pipeline analyzing **3,900 customer transactions** to identify revenue drivers, customer segments, and **$548K optimization opportunities**. Delivered full stack solution: Python data preparation → SQL analysis → Power BI dashboard → Executive presentation.
-
-**Business Impact:** Male customers drive 70% revenue, express shipping yields 20% AOV premium, footwear shows $96K potential.
-
-## 📊 Dataset Overview
-| Attribute | Details |
-|-----------|---------|
-| **Rows** | 3,900 transactions |
-| **Columns** | 18 features |
-| **Key Metrics** | Age, Gender, Purchase Amount ($59.76 avg), Category, Shipping Type |
-| **Challenges** | 37 missing Review Ratings (imputed) |
-
-## 🛠️ Tools Used
-🐍 Python (pandas, numpy) - Data loading & EDA
-🗄️ MySQL - 10 advanced SQL queries
-📊 Power BI - Interactive dashboard (8 visuals)
-📈 PPT - Executive presentation
-
-## 🔄 Step-by-Step Workflow
-1. **Load** `shoppingbehavior.csv` (3,900 rows) [Python]
-2. **EDA** - Summary stats, missing values analysis
-3. **Clean** - Impute Review Rating, feature engineering (age groups)
-4. **Export** - MySQL table + clean CSV
-5. **SQL** - Customer segmentation, revenue analysis
-6. **Power BI** - 8 visuals + 6 slicers
-7. **Report** - $548K opportunities identified
-
-## 📈 Power BI Dashboard
-✅ 8 Interactive Visuals
-✅ 6 Slicers: Gender, Category, Shipping, Payment, Age, Subscription
-✅ KPIs: AOV $59.76, 3.75 satisfaction rating
-✅ Real-time filtering across all metrics
-
-
-## 🔥 Key Results
-| Opportunity | Revenue | Target |
-|-------------|---------|--------|
-| Male Premium | **$180K** | 1,806 customers |
-| Express Shipping | **$144K** | 35% penetration |
-| Subscriptions | **$34K** | 2,847 prospects |
-| **TOTAL** | **$548K** | 9 months |
-
-**Top Insights:**
-- Males: **$62.15 AOV** (12% premium)
-- VIP customers: **26% higher AOV**
-- Express shipping: **20% AOV uplift**
-
-## 🚀 How to Run
-
-### Prerequisites
-pip install pandas numpy mysql-connector-python sqlalchemy
-
-text
-
-### 1. Python Pipeline
-jupyter notebook final_cust_beh_analysis.ipynb
-
-Run All Cells → Creates MySQL + clean CSV
-text
-
-### 2. Power BI
-Import → shoppinganalysis.csv
-Add slicers → 8 visuals auto-generated
-### 3. SQL Queries
-MySQL → USE customers;
-→ Run segmentation queries
-
-text
-
-## 📁 Repository Structure
-├── README.md # This file
-├── final_cust_beh_analysis.ipynb # Python pipeline
-├── Customer-Shopping-Behavior-Analysis-2.pptx
-├── end_cust_ana_pdf.pdf
-├── Business-Problem-Document.pdf
-├── shoppingbehavior.csv # Raw data
-└── shoppinganalysis.csv # Cleaned data
-
-text
-
-## 🎯 Business Problem
-**"Optimize retail sales using customer behavior data"**
-
-**Solution:** Data-driven roadmap for **$548K revenue growth** through segmentation, premium services, and category expansion.
+**Impact:** Identified **$548K annual revenue opportunity** from **3,900 retail transactions**
 
 ---
 
-**Chaitra B Huralikuppas**   
-**Aspiring Data Analyst **
-⭐ **Star if helpful for your portfolio!**
+## 📌 Project Overview
+This project delivers a complete **end-to-end retail analytics pipeline**, analyzing customer shopping behavior to uncover revenue drivers, customer segments, and high-impact growth opportunities.
+
+**Workflow:**  
+Python (EDA & Data Preparation) → SQL (Business Analysis) → Power BI (Dashboard) → Executive Insights
+
+### Key Business Outcomes
+- Male customers drive **70% of total revenue**
+- Express shipping delivers **20% higher average order value**
+- Footwear category shows **$96K untapped growth potential**
+
+---
+
+## 📊 Dataset Overview
+
+| Attribute | Details |
+|--------|---------|
+| Rows | 3,900 transactions |
+| Columns | 18 features |
+| Key Metrics | Age, Gender, Category, Purchase Amount (AOV $59.76), Shipping Type |
+| Data Quality | 37 missing review ratings (handled via imputation) |
+
+---
+
+## 🛠 Tools & Technologies
+- **Python (Pandas, NumPy):** Data cleaning, EDA, feature engineering  
+- **SQL (MySQL):** Customer segmentation, revenue and behavior analysis (10+ queries)  
+- **Power BI:** Interactive dashboard (8 visuals, 6 slicers)  
+- **PowerPoint / PDF:** Executive-ready business presentation  
+
+---
+
+## 🔄 Analytical Workflow
+1. Loaded and explored raw customer transaction data using Python  
+2. Cleaned data and engineered features (age groups, customer segments)  
+3. Exported clean data to MySQL and CSV formats  
+4. Performed SQL-based revenue and customer segmentation analysis  
+5. Built an interactive Power BI dashboard  
+6. Translated insights into a **$548K revenue optimization roadmap**
+
+---
+
+## 📈 Power BI Dashboard Highlights
+- **8 Interactive Visuals** with real-time filtering  
+- **6 Slicers:** Gender, Category, Shipping, Payment, Age Group, Subscription  
+- **KPIs:**  
+  - Average Order Value: **$59.76**  
+  - Customer Satisfaction Score: **3.75**  
+- Enables quick drill-down for stakeholder decision-making
+
+---
+
+## 🔥 Key Results & Revenue Opportunities
+
+| Opportunity | Revenue Potential | Target |
+|------------|------------------|--------|
+| Male Premium Tier | $180K | 1,806 customers |
+| Express Shipping Expansion | $144K | 35% penetration |
+| Subscription Conversion | $34K | 2,847 prospects |
+| **Total Identified Impact** | **$548K** | 9-month roadmap |
+
+### Supporting Insights
+- Male customers: **$62.15 AOV (12% premium)**
+- VIP customers: **26% higher AOV**
+- Express shipping users: **20% higher spend**
+
+---
+
+## 🎯 Business Problem
+**Goal:** Optimize retail sales and customer engagement using shopping behavior data.
+
+**Solution:** A data-driven strategy focused on customer segmentation, premium services, and category expansion to unlock **$548K in annual growth**.
+
+---
+
+## 📁 Repository Structure
+├── README.md
+├── final_cust_beh_analysis.ipynb
+├── shoppingbehavior.csv
+├── shoppinganalysis.csv
+├── Customer-Shopping-Behavior-Analysis.pptx
+├── end_cust_ana_pdf.pdf
+└── Business-Problem-Document.pdf
+
+---
+## 💼 Business Solution & Action Plan
+
+Analysis of 3,900 customer transactions reveals a **$548K annual revenue opportunity** through targeted segmentation, service upgrades, and category expansion.
+
+### Key Growth Initiatives
+- **Premium Male Segment:** Male customers drive **70% of revenue** with **12% higher AOV ($62.15)**  
+  → Target top 1,806 customers with premium tiers  
+  **Impact:** **$180K**
+
+- **Express Shipping Expansion:** Express users show **20% higher AOV ($65.40)**  
+  → Increase adoption via targeted promotions  
+  **Impact:** **$144K**
+
+- **Subscription Conversion:** Subscribers spend **6.4% more**, but adoption is only **27%**  
+  → Convert 2,847 non-subscribers with incentives  
+  **Impact:** **$34K**
+
+- **Footwear Category Growth:** Highest satisfaction (**3.92**) but low revenue share  
+  → Expand inventory and targeted marketing  
+  **Impact:** **$96K**
+
+### 📊 Total Business Impact
+- **$548K annual revenue opportunity**
+- **9-month phased implementation**
+- **Low–medium risk** with pilot validation
+
+## 👤 Author
+**Chaitra B Huralikuppi | Aspiring Data Analyst**
+
+⭐ Star this repository if it helps your analytics portfolio
+
